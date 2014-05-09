@@ -1,0 +1,27 @@
+body {
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+.navbar-brand {
+    max-width: 50%;
+}
+.form-group .form-control-feedback {
+    display: none;
+    top: 0;
+    z-index: 100;
+}
+.has-success .glyphicon-remove {
+    display: none;
+}
+.has-error .glyphicon-ok {
+    display: none;
+}
+.form-group.has-success .glyphicon-ok {
+    display: block;
+}
+.form-group.has-error .glyphicon-remove {
+    display: block;
+}
+.input-group-addon {
+    padding: 3px 6px;
+}
